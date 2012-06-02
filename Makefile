@@ -2,7 +2,7 @@
 # environment for openssl 0.9.8o (libssl-dev package must be installed)
 #
 all:
-	gcc -Wall -Werror -pedantic -fPIC -shared -o libdigest.so digest.c -I$(gtm_dist) -lcrypto -I$(gtm_dist)
+	gcc -Wall -Werror -pedantic -fPIC -shared -o libdigest.so digest.c -I$(gtm_dist) -lcrypto
 
 # Example installation procedure
 #
